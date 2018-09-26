@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="Circle" project="Factory" file="/Factory/src/Circle.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="171" width="115" x="518" y="193"/>    
+    <position height="171" width="115" x="328" y="91"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="ShapeFactory" project="Factory" file="/Factory/src/ShapeFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="142" x="336" y="193"/>    
+    <position height="-1" width="-1" x="315" y="-34"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="Triangle" project="Factory" file="/Factory/src/Triangle.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="171" width="115" x="673" y="193"/>    
+    <position height="171" width="115" x="483" y="91"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="Rectangle" project="Factory" file="/Factory/src/Rectangle.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="171" width="115" x="828" y="193"/>    
+    <position height="171" width="115" x="638" y="91"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="Client" project="Factory" file="/Factory/src/Client.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="99" width="113" x="983" y="193"/>    
+    <position height="-1" width="-1" x="114" y="-32"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <interface id="6" language="java" name="Shape" project="Factory" file="/Factory/src/Shape.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="117" width="115" x="673" y="404"/>    
+    <position height="-1" width="-1" x="530" y="-44"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -56,15 +56,15 @@
     </display>  
   </interface>  
   <realization id="7">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="6"/>  
-  </realization>  
-  <realization id="8">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="6"/>  
   </realization>  
-  <realization id="9">    
+  <realization id="8">    
     <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="6"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

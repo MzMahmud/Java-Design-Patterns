@@ -6,7 +6,7 @@ public class PhoneMessageReceiver extends Receiver{
 
 	@Override
 	public boolean processMessage(Message m) {
-		if(m.text.contains("phone")) {
+		if(m.text.contains("phone")){
 			System.out.println("Phone Handling Message");
 			System.out.println(m);
 			return true;
